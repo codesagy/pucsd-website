@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Navigation*/
+
+.logo {
+    height: 100px;
+    width: 125px;
+    border-radius: 50%;
+    filter: invert(100%) grayscale(100%) brightness(250%) ;
+}
+
+.navbar ul {
+    position: relative;
+    display: flex;
+}
+
+.navbar ul li {
+    position: relative;
+    list-style: none;
+}
+
+.navbar ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header.sticky ul li a {
+    color: #111;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.8s;
+}
+
+/*Javascript Scroll Transformation*/
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+header.sticky .logo{
+    color: #111;
+}
+
+
+/*Main Area*/
+.banner {
+    padding: 100px;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/sppu-bg.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.banner h2 span {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.btn {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/*About*/
+#tab-push {
+    tab-size: 4em;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+.about-content {
+    padding-right: 2em;
+}
+
+.about-content p,h3 {
+    text-align: justify;
+    margin-bottom: 0.8em;
+
+}
+
+.about-image {
+    max-width: 50%;
+    margin-top: 4em;
+}
+
+
+/*Academics*/
+.academics {
+    background: #111;
+}
+
+.academics-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.academics-heading h2 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+.academics-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.academics-icons {
+    padding 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 47%;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.academics-icons:hover {
+    background: #2196f3;
+}
+
+.academics-icons h3 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.academics-icons img {
+    filter: invert(1);
+    padding-top: 2em;
+}

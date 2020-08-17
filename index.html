@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUCSD - Pune University Computer Science Department</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!--Navigation-->
+    <header class="navbar sticky">
+        <img src="./img/pucsd-logo.jpg" alt="PUCSD" class="logo">
+        <div class="toggle"></div>
+        <ul>
+            <li> <a href="#">About</a> </li>
+            <li> <a href="#">Academics</a> </li>
+            <li> <a href="#">Facilities</a> </li>
+            <li> <a href="#">Contact</a> </li>
+        </ul>
+    </header>
+
+    <!--Main Area-->
+    <section class="banner">
+        <div class="main">
+            <h2>Welcome to <br> <span>PUCSD</span></h2>
+            <h3>Pune University Computer Science Department is one of the earliest CS Departments started in Indian Universities. 
+                Back in 1980, when computer science was little known and the word IT didn't exist, a one-year programme was started 
+                towards the B.Sc.(Applied) degree in Computer Science. The M.C.A. programme was launched in 1983, the M.Tech. degree 
+                programme in 1985, and the one year B.Sc.(Applied) programme was upgraded to a two year M.Sc. in Computer Science in 1986.</h3>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!--About-->
+    <section class="about">
+        <div class="heading">
+            <h2>About PUCSD</h2>
+        </div>
+
+        <div class="content">
+            <div class="about-content">
+                <p> The Pune University, Computer Science Department(PUCSD) University of Pune is a teaching department that aims at providing
+                    quality education in Computer Science. As with any education institution, students give the department a dynamic character
+                    and an active culture towards Computer Science, guided by their faculty. Apart from teaching postgraduate level Computer
+                    Science, the faculty is also involved in research, consultancy and development programs. The support structure of the 
+                    department provides all the required non-academic support to the students and the faculty. <br>
+
+                    Details of most of our activities can be found on this site. PUCSD takes care to ensure that the basic scientific principles
+                    of Computer Science are presented to the student and actively tries to point out the differences between the Computation as
+                    a science and software. Our mission statement elucidates this point further. Another characteristic academic experience at 
+                    PUCSD for the student is the almost lack of any divide between Computer Science theory and practice. We try our best to 
+                    maintain a 24x7 availability of our resources. <br>
+                </p>
+            
+                <h3>Our Educational Mission<br></h3>
+                <p>
+                    Today Information Technology has become pervasive, while its parent, Computing Science, has become hard to find.  Instead of 
+                    becoming specialty providers for the IT industry or mass producers of vocationally trained personnel, our Department has chosen
+                    to take the road less travelled.  We continue to emphasize the pristine science that lies under the diverse aspects of computing.
+                    This is the single most important feature of the education offered here.
+
+                    There are several ways to present the canonical core of computing science.  Over the years we have developed a distinctive style 
+                    and method that bridges the theory-practice divide while remaining grounded in the core. Technology changes rapidly, especially in
+                    the field of computing, whereas the science, if it changes at all, does so much more gradually.  Those who are clear and thorough
+                    about the fundamentals can adapt to rapid changes in technology relatively easily.  We want the education imparted to our students
+                    to be the basis of a lifetime of learning.
+
+                    We are committed to the free software and open source movements, as typified by Linux.  We believe that reading and modifying open
+                    source code is an extremely good learning tool and an effective initiation into the culture of practical software development.
+
+                    We have a large Departmental library accessible to all students.  Jayakar Library, the central University library, has a very large 
+                    and varied collection of books and journals. 
+
+                    Student-teacher relations are informal and friendly.  A lack of hierarchy is very much a part of our tradition.  Alumni teach many 
+                    of our courses, motivated by a sense of gratitude for a place that has given them their education, and some of them are prized as 
+                    our best teachers.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="./img/abt-img.jpg" alt="About PUCSD" id="abt-img">
+            </div>
+        </div>
+    </section>
+
+    <!--Academics-->
+    <section class="academics">
+        <div class="academics-heading">
+            <h2>Academics</h2>
+        </div>
+        <div class="academics-content">
+            <div class="academics-icons">
+                <img src="./img/icon-entrance.png" alt="Entrance Exam">
+                <h3>Entrance Exam</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis consequuntur nostrum nesciunt earum necessitatibus fuga omnis
+                   quam harum! Quis.</p>
+            </div>
+            <div class="academics-icons">
+                <img src="./img/icon-syllabus.png" alt="Course Syllabus">
+                <h3>Course Syllabus</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis consequuntur nostrum nesciunt earum necessitatibus fuga omnis
+                   quam harum! Quis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Facilities-->
+
+    <!--Contact-->
+
+    <!--Javascript-->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0)
+        });
+    </script>
+</body>
+</html>
